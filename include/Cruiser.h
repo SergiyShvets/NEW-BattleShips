@@ -5,7 +5,7 @@
 
 class Cruiser : public Ship {
 public:
-	Cruiser(POSITION &pos, Coord *coord);
+	Cruiser(POSITION pos, Coord *coord);
 	virtual ~Cruiser();
 
 	void ShipInfo();

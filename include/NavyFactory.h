@@ -10,8 +10,8 @@
 #include "Carrier.h"
 
 /**
- The base abstract Navy Factory class
- using Abstract Factory Pattern to create ships
+ *The base abstract Navy Factory class
+ *using Abstract Factory Pattern to create ships
  */
 
 class NavyFactory {
@@ -20,7 +20,7 @@ public:
 	virtual ~NavyFactory();
 
 	/**
-	 Virtual methods to create new ships
+	 *Virtual methods to create new ships
 	 */
 	virtual Ship* CreateSubmarine(POSITION &pos, Coord *coord) = 0;
 	virtual Ship* CreateDestroyer(POSITION &pos, Coord *coord) = 0;

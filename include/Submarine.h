@@ -5,7 +5,8 @@
 
 class Submarine : public Ship{
 public:
-	Submarine(POSITION &pos, Coord *coord);
+	Submarine();
+	Submarine(POSITION pos, Coord *coord);
 	~Submarine();
 
 	void ShipInfo();

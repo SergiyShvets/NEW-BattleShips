@@ -5,7 +5,8 @@
 
 class Carrier : public Ship {
 public:
-	Carrier(POSITION &pos, Coord *coord);
+	Carrier();
+	Carrier(POSITION pos, Coord *coord);
 	virtual ~Carrier();
 
 	void ShipInfo();

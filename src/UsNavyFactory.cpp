@@ -4,7 +4,7 @@ UsNavyFactory::UsNavyFactory() {
 
 	_factoryName = "United States Factory";
 
-	LOG(INFO, "USNavyFactory::USNavyFactory() "
+	LOG(INFO, "UsNavyFactory::USNavyFactory() "
 			<< "Created factory: "
 			<< _factoryName << "\n");
 

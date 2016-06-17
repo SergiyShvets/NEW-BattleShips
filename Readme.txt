@@ -1,1 +1,1 @@
-BattleShips C++ game using OOP, Patterns, STL, Threads
+BattleShips C++ game using OOP, Patterns, STL, Templates, Threads, Sockets
