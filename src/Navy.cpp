@@ -1,12 +1,15 @@
 #include "Navy.h"
 
-Navy::Navy(NavyFactory *navyFactory) {
+//Navy::Navy(NavyFactory *navyFactory, POSITION pos, Coord *coord) {
+//
+//
+//}
 
-}
 
 Navy::~Navy() {
 
-	for(auto navySize : navyShips) {
+	//Destroy all ships
+	for(auto navySize : _navyShips) {
 		delete navySize;
 	}
 

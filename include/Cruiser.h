@@ -5,9 +5,11 @@
 
 class Cruiser : public Ship {
 public:
+
 	Cruiser(POSITION pos, Coord *coord);
 	virtual ~Cruiser();
 
+	int DestroyedShip(int decks);
 	void ShipInfo();
 };
 

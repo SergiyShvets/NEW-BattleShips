@@ -5,10 +5,11 @@
 
 class Submarine : public Ship{
 public:
-	Submarine();
+
 	Submarine(POSITION pos, Coord *coord);
 	~Submarine();
 
+	int DestroyedShip(int decks);
 	void ShipInfo();
 };
 

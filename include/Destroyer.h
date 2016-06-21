@@ -5,9 +5,11 @@
 
 class Destroyer : public Ship {
 public:
+
 	Destroyer(POSITION pos, Coord *coord);
 	virtual ~Destroyer();
 
+	int DestroyedShip(int decks);
 	void ShipInfo();
 };
 

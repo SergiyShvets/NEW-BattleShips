@@ -15,15 +15,6 @@ Ship::Ship(POSITION pos, Coord *coord) {
 
 }
 
-Ship::Ship() {
-
-	_shipName = "Abstract Ship";
-		_decks = 0;
-		_pos = HORIZONTAL;
-		_coord = nullptr;
-		_wasDestroyed = false;
-
-}
 Ship::~Ship() {
 	LOG(INFO,
 			"Ship::~Ship() "

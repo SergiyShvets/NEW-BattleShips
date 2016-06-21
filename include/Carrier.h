@@ -5,10 +5,11 @@
 
 class Carrier : public Ship {
 public:
-	Carrier();
+
 	Carrier(POSITION pos, Coord *coord);
 	virtual ~Carrier();
 
+	int DestroyedShip(int decks);
 	void ShipInfo();
 };
 

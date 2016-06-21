@@ -15,11 +15,11 @@ typedef struct Coord {
 	/** As a default coords are initialized by 0; */
 	Coord() :
 		x(0), y(0) {
-	}
-	;
-	/** Vertical coord */
+	};
+
+	/** Vertical coordinate */
 	volatile int x;
-	/** Horizontal coord */
+	/** Horizontal coordinate */
 	volatile int y;
 
 } Coord;
@@ -47,8 +47,6 @@ typedef enum {
  */
 class Ship {
 public:
-
-	Ship();
 
 	/**
 	 * @param *pos - position of current ship
@@ -98,6 +96,8 @@ public:
 	 * This method shows information about current ship
 	 */
 	virtual void ShipInfo() = 0;
+
+	virtual int DestroyedShip(int decks) = 0;
 
 protected:
 	/** The name of current ship*/
