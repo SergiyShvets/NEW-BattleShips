@@ -270,7 +270,7 @@ bool Board<CellState>::PlaceShip(Ship* ship) {
 	volatile POSITION shipPos = ship->GetShipPos();
 	std::string name = ship->GetShipName();
 
-	if(!CheckShipCoord(coordX,coordY, MAX_COORD, MIN_COORD, shipPos, SHIP_DECKS))
+	if(!CheckShipCoord(coordX, coordY, MAX_COORD, MIN_COORD, shipPos, SHIP_DECKS))
 		return false;
 
 	if(!CheckShipCollision(coordX, coordY, MIN_COORD, MAX_COORD, shipPos, SHIP_DECKS))
